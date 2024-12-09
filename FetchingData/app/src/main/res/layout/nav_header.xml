@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/maroon">
+
+    <!-- Profile Icon -->
+    <ImageView
+        android:id="@+id/iv_person_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="center"
+        android:contentDescription="Person Icon"
+        android:background="@drawable/circle_background"
+        android:padding="8dp" />
+
+    <!-- Dynamic User Name -->
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Your Name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Dynamic User Email -->
+    <TextView
+        android:id="@+id/tv_user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="your.email@example.com"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+</LinearLayout>

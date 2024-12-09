@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        android:iconTint="#000000" />
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"
+        android:iconTint="#000000" />
+    <item
+        android:id="@+id/nav_about"
+        android:title="About App"
+        android:icon="@drawable/ic_info"
+        android:iconTint="#000000" />
+</menu>

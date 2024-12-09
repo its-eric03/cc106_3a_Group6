@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FetchingData" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Color -->
+        <item name="colorPrimary">@color/maroon</item>
+        <item name="colorPrimaryContainer">@color/maroon_light</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Secondary Color -->
+        <item name="colorSecondary">@color/maroon_dark</item>
+        <item name="colorSecondaryContainer">@color/maroon</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- Background and Surface Colors -->
+
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@android:color/black</item>
+
+        <!-- Optional: Customize AppBar -->
+        <item name="colorSurfaceVariant">@color/maroon_light</item>
+        <item name="colorOnSurfaceVariant">@android:color/white</item>
+    </style>
+
+    <!-- Application Theme -->
+    <style name="Theme.FetchingData" parent="Base.Theme.FetchingData" />
+</resources>

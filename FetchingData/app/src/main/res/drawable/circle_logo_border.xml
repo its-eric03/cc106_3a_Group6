@@ -1,0 +1,10 @@
+<!-- res/drawable/circle_logo_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer Circle Border -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="4dp" android:color="@android:color/black" />
+        </shape>
+    </item>
+</layer-list>
